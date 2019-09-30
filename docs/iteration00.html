@@ -2,8 +2,24 @@
 <head>
 <title>yourFirstName INF1339 Project 2</title>
 <head>
+</head>
+    <style>
+        h3 {font-family:sans-serif;
+            font: italic bold 20px/40px Georgia, serif;
+            }
+    
+    </style>
+    
+    <script>
+        function hello () {
+            document.getElementById("sentinel").innerHTML = "Hello! ";
+            document.getElementById("button").innerHTML = "Hello! ";
+        }
+        
+    </script>
 <body>
 <h3>API Project Iteration 0</h3>
-<p id="sentinel" class="test_class"></p>
+    <p id="sentinel" class="test_class" onclick = "hello()"> </p>
+    <button id="button" onclick = "hello()">Say Hello</button>
 </body>
 </html>
